@@ -1,4 +1,4 @@
-const API_BASE_URL ='https://destination-recommendation-platform-2.onrender.com';
+const API_BASE_URL ='https://destination-recommendation-platform-1.onrender.com/api';
 
 class ApiService {
   constructor() {

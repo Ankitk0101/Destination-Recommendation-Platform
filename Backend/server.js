@@ -22,6 +22,12 @@ app.get('/api/health', (req, res) => {
   res.json({ message: 'TravelPath API is running!' });
 });
 
+
+app.use((req,res)=>{
+  return res.status(404).json({message:"page not found"})
+})
+
+
 const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, () => {

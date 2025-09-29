@@ -1,4 +1,4 @@
-const API_BASE_URL ='http://localhost:5000/api';
+const API_BASE_URL ='https://destination-recommendation-platform-2.onrender.com';
 
 class ApiService {
   constructor() {
